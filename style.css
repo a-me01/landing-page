@@ -4,6 +4,8 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+    width: 100%;
+
 }
 
 .header,
@@ -162,9 +164,13 @@ h2 {
 .person {
     font-weight: 700;
     display: flex;
-    /* align-items: flex-end; */
-    padding-right: 200px;
+    align-items: flex-end;
+    padding-right: 25%;
     margin-left: auto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+
 }
 
 .action {
